@@ -24,8 +24,11 @@ Summary of guidelines:
 
 #### Compile and install
 cd opencv
+
 mkdir build
+
 cd build
+
 cmake -DWITH_JPEG=ON -DWITH_OPENCL=OFF \
 -DWITH_OPENMP=ON -DWITH_PTHREADS_PF=OFF \
 -DCMAKE_C_FLAGS="-mcpu=power9 -mtune=power9" -DCMAKE_CXX_FLAGS="-mcpu=power9 -mtune=power9" \
